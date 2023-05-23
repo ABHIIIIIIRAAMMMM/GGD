@@ -11,6 +11,10 @@ header {
   background-color: #24252A;
 }
 
+img:hover {
+  content: url(Images/logoinvert.png);
+}
+
 li, a, button {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;

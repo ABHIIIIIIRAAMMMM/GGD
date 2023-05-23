@@ -1,1 +1,0 @@
-var alerted = alert("Any problems with games are not our responsibility!")
