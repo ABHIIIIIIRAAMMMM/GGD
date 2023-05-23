@@ -11,7 +11,7 @@ header {
   background-color: #24252A;
 }
 
-img:hover {
+.logo:hover {
   content: url(Images/logoinvert.png);
 }
 
