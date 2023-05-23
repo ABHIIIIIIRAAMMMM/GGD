@@ -1,9 +1,9 @@
  body {
-   <p style="background-image: url('Images/');">
+  <p style="background-image: url('Images/Background/background.png');">
   }
 
   p {
-    color: white;
+    color: rgb(153, 0, 0);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
