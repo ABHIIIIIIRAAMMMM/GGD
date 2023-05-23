@@ -1,14 +1,18 @@
- body {
-      background-color: #2f3036;
-
+ html, body {
+      margin: 0;
+      padding: 0;
  }
 
- /* background-image: url(Images/Background/background.png)*/
+ .image {
+    background-image: url(Images/Background/background.png);
+ }
+
+
 header {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252A;
+  background-color: #2f3238;
 }
 
 .logo:hover {
@@ -19,13 +23,13 @@ li, a, button {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #edf0f1;
+  color: #ffffff;
   text-decoration: none;
 }
 
 header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
 }
