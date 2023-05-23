@@ -1,1 +1,0 @@
-var alerted = alert("Any misuse of the games are not our problem.")
