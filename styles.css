@@ -2,6 +2,31 @@
   background-image: url(Images/Background/background.png);
   }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+li, a, button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
   h1 {
     color: white;
     text-align: center;
