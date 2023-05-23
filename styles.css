@@ -32,7 +32,7 @@ header {
 
 .logo {
   cursor: pointer;
-  margin-right: auto;
+  margin-right: 100%;
 }
 
 .nav_links {
