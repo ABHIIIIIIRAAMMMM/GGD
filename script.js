@@ -1,1 +1,1 @@
-var alerted = alert("Any problems with games are not our responsibility!")
+var alerted = alert("Any misuse of the games are not our problem.")
