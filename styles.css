@@ -61,6 +61,10 @@ header {
   margin: 0;
   padding: 0;
   background-color: #2f3238;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
 }
 
 .logo:hover {
@@ -75,13 +79,6 @@ li, a, button {
   font-size: 16px;
   color: #ffffff;
   text-decoration: none;
-}
-
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
 }
 
 .logo {
@@ -122,8 +119,7 @@ button:hover {
 h1 {
   color: aliceblue;
   text-align: left;
-  font-size: 175%;
+  font-size: 150%;
   font-family: Arial, Helvetica, sans-serif;
-  -webkit-text-stroke: 2px #ffffff;
     
 }
