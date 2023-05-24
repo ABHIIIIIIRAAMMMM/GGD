@@ -1,4 +1,7 @@
 .wrapper .sidenav {
+  border-right-style: solid;
+  border-color: #2f3238;
+  border-width: 2px;
   position: fixed;
   left: 0;
   top: 20vh;
@@ -9,7 +12,7 @@
 
 .wrapper .sidenav ul li{
   list-style: none;
-  padding: 15px;
+  padding: 13px;
 }
 
 .wrapper .sidenav .social-media{
@@ -31,6 +34,12 @@
   align-items: center;
 }
 
+.wrapper .sidenav .social-media a:hover{
+  transition-duration: 1s;
+  transform: rotate(360deg);
+
+}
+
 .wrapper .sidenav .social-media a i{
   margin: 0 auto;
 
@@ -44,7 +53,7 @@ body {
       background-color: #3a3d44;
       margin: 0;
       padding: 0;
-      margin-left: 12vw;
+      margin-left: 13vw;
  }
 
 header {
