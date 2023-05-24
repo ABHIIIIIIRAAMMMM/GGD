@@ -6,4 +6,4 @@ return games[Math.floor(Math.random()*games.length)];
      
 }
 
-var randGame = random_item(items)
+var randGame = random_item(games)
