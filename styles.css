@@ -1,3 +1,11 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .wrapper .sidenav {
   border-right-style: solid;
   border-color: #2f3238;
@@ -56,6 +64,10 @@ body {
       margin-left: 13vw;
  }
 
+ img {
+  border-radius: 15px;
+ }
+
 header {
   box-sizing: border-box;
   margin: 0;
@@ -72,9 +84,9 @@ header {
 }
 
 li, a, button {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: poppins;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -101,6 +113,19 @@ li, a, button {
   color: rgb(36, 112, 0)
 }
 
+a:hover {
+  color: rgb(36, 112, 0)
+}
+
+a {
+  transition: all 0.3s;
+}
+
+img:hover {
+  color: #2f3238;
+}
+
+
 button {
   padding: 9px 25px;
   background-color: rgba(36, 129, 0, 1);
@@ -118,6 +143,14 @@ h1 {
   color: aliceblue;
   text-align: left;
   font-size: 150%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: poppins;
+    
+}
+
+.about {
+  margin: 30px;
+  color: aliceblue;
+  font-size: 105%;
+  font-family: poppins;
     
 }
