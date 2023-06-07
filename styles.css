@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.bg-image {
+  background-image: url(images/Background/background.png);
+}
+
 .wrapper .sidenav {
   border-right-style: solid;
   border-color: #2f3238;
@@ -58,7 +62,9 @@ p {
 }
 
 body {
-      background-color: #3a3d44;
+      /*background-color: #3a3d44;*/
+      background-image: url(Images/Background/background.png);
+      /*backdrop-filter: blur(5px);*/
       margin: 0;
       padding: 0;
       margin-left: 13vw;
