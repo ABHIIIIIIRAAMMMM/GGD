@@ -18,13 +18,13 @@
   left: 0;
   top: 148px;
   width: 12vw;
-  height: 930px;
+  height: 822px;
   background: #3a3d44;
 }
 
 .wrapper .sidenav ul li{
   list-style: none;
-  padding: 13px;
+  padding: 14px;
 }
 
 .wrapper .sidenav .social-media{
@@ -84,7 +84,8 @@ header {
 }
 
 .logo:hover {
-  content: url(Images/logoinvert.png);
+  filter: invert(105%);
+  transition-duration: 0.5s;
 }
 
 li, a, button {
