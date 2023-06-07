@@ -18,7 +18,7 @@
   left: 0;
   top: 148px;
   width: 12vw;
-  height: 822px;
+  height: 813px;
   background: #3a3d44;
 }
 
@@ -75,17 +75,18 @@ body {
 header {
   box-sizing: border-box;
   margin: 0;
-  padding: 15;
+  padding: 0;
+  margin-left: -250px;
   background-color: #2f3238;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 15px 2%;
+  padding: 0px 2%;
 }
 
 .logo:hover {
   filter: invert(105%);
-  transition-duration: 0.5s;
+  transition-duration: 1s;
 }
 
 li, a, button {
@@ -98,7 +99,7 @@ li, a, button {
 
 .logo {
   cursor: pointer;
-  margin-right: 900px;
+  margin-right: 1200px;
 }
 
 .nav_links {
