@@ -16,9 +16,9 @@
   border-width: 2px;
   position: fixed;
   left: 0;
-  top: 20vh;
+  top: 148px;
   width: 12vw;
-  height: 80vh;
+  height: 930px;
   background: #3a3d44;
 }
 
@@ -29,7 +29,7 @@
 
 .wrapper .sidenav .social-media{
   position: absolute;
-  bottom: 8px;
+  bottom: 10px;
   left: 50%;
   transform: translate(-50%);
   font-size: 25px;
@@ -62,9 +62,7 @@ p {
 }
 
 body {
-      /*background-color: #3a3d44;*/
-      background-image: url(Images/Background/background.png);
-      /*backdrop-filter: blur(5px);*/
+      background-color: #3a3d44;
       margin: 0;
       padding: 0;
       margin-left: 13vw;
