@@ -16,9 +16,9 @@
   border-width: 2px;
   position: fixed;
   left: 0;
-  top: 148px;
+  top: 118px;
   width: 12vw;
-  height: 813px;
+  height: 844px;
   background: #3a3d44;
 }
 
@@ -61,28 +61,29 @@ p {
   color: white;
 }
 
-body {
-      background-color: #3a3d44;
-      margin: 0;
-      padding: 0;
-      margin-left: 13vw;
- }
 
  img {
   border-radius: 15px;
  }
 
 header {
-  box-sizing: border-box;
-  margin: 0;
+  position: sticky;
   padding: 0;
   margin-left: -250px;
   background-color: #2f3238;
+  z-index: 10;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   padding: 0px 2%;
 }
+
+body {
+  background-color: #3a3d44;
+  margin: 0;
+  padding: 0;
+  margin-left: 13vw;
+}
+
 
 .logo:hover {
   filter: invert(105%);
