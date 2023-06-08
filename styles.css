@@ -77,6 +77,7 @@ header {
   padding: 0px 2%;
 }
 
+
 body {
   background-color: #3a3d44;
   margin: 0;
@@ -127,6 +128,7 @@ a:hover {
 a {
   transition: all 0.3s;
 }
+
 
 img:hover {
   color: #2f3238;
